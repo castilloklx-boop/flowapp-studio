@@ -64,7 +64,7 @@ export default function SoluzioniPage() {
 
       {/* Visual strip */}
       <section className="relative h-[220px] md:h-[300px] overflow-hidden">
-        <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1400&q=85&fit=crop" alt="Dashboard e analytics professionali" className="w-full h-full object-cover absolute inset-0" loading="lazy" />
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1400&q=90&fit=crop" alt="Dashboard operativa con grafici e dati" className="w-full h-full object-cover absolute inset-0" loading="lazy" />
         <div className="absolute inset-0 bg-gradient-to-r from-foreground/80 via-foreground/40 to-transparent" />
         <Container className="relative h-full flex items-center">
           <div className="max-w-[480px]">
