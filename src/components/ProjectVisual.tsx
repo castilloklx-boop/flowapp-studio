@@ -28,12 +28,12 @@ function Shell({ v, title, card, sidebar, topTabs, children }: { v: any; title: 
   </div>;
 }
 
-function Side({ v, card, items }: { v: any; card: boolean; items: { label: string; active?: boolean }[] }) {
+function Side({ v, card, items }: { v: any; card: boolean; items: { icon?: string; label: string; active?: boolean }[] }) {
   return <div className={`${card?"py-1":"py-2 md:py-3"} space-y-0.5 px-1 md:px-2`}>
     {items.map((item, i) => (
       <div key={i} className={`flex items-center gap-1.5 md:gap-2 ${card?"px-1 py-1":"px-2 py-1.5"} rounded-lg cursor-default`}
         style={{ background: item.active ? v.accentSecondary + "12" : "transparent", color: item.active ? v.accentSecondary : v.textSecondary }}>
-        <span className={`${card?"w-1 h-1":"w-1.5 h-1.5"} rounded-full flex-shrink-0`} style={{ background: item.active ? v.accentSecondary : v.textSecondary + "40" }} />
+        <span className="w-1.5 h-1.5 rounded-full flex-shrink-0" style={{ background: item.active ? v.accentSecondary : v.textSecondary + "30" }} />
         {!card && <span className="text-[10px] md:text-[11px] truncate">{item.label}</span>}
       </div>
     ))}
