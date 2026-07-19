@@ -88,7 +88,7 @@ export default function ComeLavoriamoPage() {
 
       {/* Visual strip */}
       <section className="relative h-[220px] md:h-[280px] overflow-hidden">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1400&q=80&fit=crop" alt="Planning and strategy" className="w-full h-full object-cover absolute inset-0" loading="lazy" />
+        <img src="https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?w=1400&q=80&fit=crop" alt="UI/UX design e prototipazione software" className="w-full h-full object-cover absolute inset-0" loading="lazy" />
         <div className="absolute inset-0 bg-gradient-to-r from-foreground/75 via-foreground/35 to-transparent" />
         <Container className="relative h-full flex items-center">
           <div className="max-w-[480px]">
