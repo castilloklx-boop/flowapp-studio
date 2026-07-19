@@ -116,12 +116,12 @@ export default function Home() {
 
       {/* Visual strip */}
       <section className="relative h-[280px] md:h-[360px] overflow-hidden border-b border-border/30">
-        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1400&q=90&fit=crop" alt="Dashboard gestionale con KPI e analytics" className="w-full h-full object-cover absolute inset-0" loading="lazy" />
-        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/70 to-transparent" />
+        <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1400&q=90&fit=crop" alt="Dashboard e analytics aziendali" className="w-full h-full object-cover absolute inset-0" loading="lazy" />
+        <div className="absolute inset-0 bg-gradient-to-r from-foreground/85 via-foreground/60 to-foreground/20" />
         <Container className="relative h-full flex items-center">
           <div className="max-w-[480px]">
             <p className="text-sm uppercase tracking-[0.2em] font-semibold text-accent mb-3">Il nostro approccio</p>
-            <p className="text-xl md:text-2xl font-bold text-foreground leading-tight">Progettiamo ogni software intorno ai processi reali della tua azienda.</p>
+            <p className="text-xl md:text-2xl font-bold text-white leading-tight">Progettiamo ogni software intorno ai processi reali della tua azienda.</p>
           </div>
         </Container>
       </section>
