@@ -116,7 +116,7 @@ export default function Home() {
 
       {/* Visual strip */}
       <section className="relative h-[280px] md:h-[360px] overflow-hidden border-b border-border/30">
-        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1400&q=80&fit=crop" alt="Web application development dashboard" className="w-full h-full object-cover absolute inset-0" loading="lazy" />
+        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1400&q=85&fit=crop" alt="Sviluppo software professionale" className="w-full h-full object-cover absolute inset-0" loading="lazy" />
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/70 to-transparent" />
         <Container className="relative h-full flex items-center">
           <div className="max-w-[480px]">
