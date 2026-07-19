@@ -27,7 +27,10 @@ export function Footer() {
         <div className="py-16 md:py-20">
           <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-12">
             <div>
-              <Link href="/" className="text-lg font-bold tracking-tight text-foreground">Flowapp Studio</Link>
+              <Link href="/" className="flex items-center gap-2 text-lg font-bold tracking-tight text-foreground">
+                <img src="/logo.png" alt="Flowapp Studio" className="h-6 w-auto" />
+                Flowapp Studio
+              </Link>
               <p className="mt-3 text-sm text-secondary max-w-[340px] leading-relaxed">
                 Flowapp Studio sviluppa web app, app mobile e software gestionali su misura per aziende.
               </p>

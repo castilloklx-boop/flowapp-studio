@@ -52,10 +52,8 @@ export function Header() {
       >
         <Container>
           <div className="flex items-center justify-between h-[72px]">
-            <Link
-              href="/"
-              className="text-lg font-bold tracking-tight text-foreground whitespace-nowrap"
-            >
+            <Link href="/" className="flex items-center gap-2 text-lg font-bold tracking-tight text-foreground whitespace-nowrap">
+              <img src="/logo.png" alt="Flowapp Studio" className="h-7 md:h-8 w-auto" />
               Flowapp Studio
             </Link>
 

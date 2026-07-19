@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   },
   description:
     "Progettiamo e sviluppiamo web app, app mobile, gestionali, dashboard e portali su misura. Sostituiamo Excel, centralizziamo dati e automatizziamo processi aziendali.",
+  icons: {
+    icon: "/favicon.png",
+  },
   openGraph: {
     title: "Flowapp Studio — Web app e app su misura per aziende",
     description:
