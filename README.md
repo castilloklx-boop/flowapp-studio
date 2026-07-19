@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Flowapp Studio
 
-## Getting Started
+Web app e app su misura per aziende. Progettiamo e sviluppiamo software costruito intorno ai processi reali.
 
-First, run the development server:
+## Stack
+
+- **Framework:** Next.js 16 (App Router)
+- **Linguaggio:** TypeScript
+- **Stile:** Tailwind CSS v4
+- **Animazioni:** Framer Motion
+- **Icone:** Lucide React
+- **Font:** Inter (Google Fonts)
+- **Colore primario:** `#338181`
+
+## Avvio
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Apri [http://localhost:3000](http://localhost:3000) nel browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Comandi
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run dev      # Avvia server di sviluppo
+npm run build    # Build di produzione
+npm run start    # Avvia server di produzione
+npm run lint     # ESLint
+```
 
-## Learn More
+## Pagine
 
-To learn more about Next.js, take a look at the following resources:
+| Route               | Pagina               |
+| ------------------- | -------------------- |
+| `/`                 | Home                 |
+| `/soluzioni`        | Soluzioni            |
+| `/work`             | Progetti             |
+| `/work/[slug]`      | Dettaglio progetto   |
+| `/come-lavoriamo`   | Come lavoriamo       |
+| `/contatti`         | Contatti (configuratore) |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Configuratore
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Il configuratore di stima (`/contatti`) permette di ottenere una fascia di prezzo e tempistiche indicative in meno di due minuti, rispondendo a 5 domande. La stima viene mostrata prima di richiedere dati personali.
 
-## Deploy on Vercel
+## Dati mock
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `projects.ts` — 4 progetti (casi studio)
+- `services.ts` — 13 esempi di soluzioni realizzabili
+- `testimonials.ts` — 3 testimonianze
+- `technologies.ts` — 3 categorie tecnologiche
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Componenti
+
+- `Configuratore` — Wizard multi-step per la stima
+- `Header` — Navigazione con CTA "Calcola una stima"
+- `Footer` — Footer semplificato
+- `Container`, `SectionHeader`, `Button`, `ProjectCard`, `TestimonialCard`, `TechGrid`, `DashboardMockup`, `Reveal`
