@@ -114,6 +114,18 @@ export default function Home() {
       {/* Marquee */}
       <Marquee text="Web app su misura · Dashboard operative · Portali clienti · Gestionale interno · Automazioni · App mobile · API · Integrazioni" speed={35} />
 
+      {/* Visual strip */}
+      <section className="relative h-[280px] md:h-[360px] overflow-hidden border-b border-border/30">
+        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1400&q=80&fit=crop" alt="Modern office workspace" className="w-full h-full object-cover absolute inset-0" loading="lazy" />
+        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/70 to-transparent" />
+        <Container className="relative h-full flex items-center">
+          <div className="max-w-[480px]">
+            <p className="text-sm uppercase tracking-[0.2em] font-semibold text-accent mb-3">Il nostro approccio</p>
+            <p className="text-xl md:text-2xl font-bold text-foreground leading-tight">Progettiamo ogni software intorno ai processi reali della tua azienda.</p>
+          </div>
+        </Container>
+      </section>
+
       {/* Positioning */}
       <section className="py-16 md:py-24 bg-bg-alt border-y border-border">
         <Container>

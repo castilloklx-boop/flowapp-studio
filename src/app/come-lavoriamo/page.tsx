@@ -86,6 +86,18 @@ export default function ComeLavoriamoPage() {
       {/* Marquee */}
       <Marquee text="Consulenza · Analisi · UX/UI Design · Sviluppo · Test · Rilascio · Evoluzione" speed={40} className="border-y border-border/30" />
 
+      {/* Visual strip */}
+      <section className="relative h-[220px] md:h-[280px] overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1400&q=80&fit=crop" alt="Planning and strategy" className="w-full h-full object-cover absolute inset-0" loading="lazy" />
+        <div className="absolute inset-0 bg-gradient-to-r from-foreground/75 via-foreground/35 to-transparent" />
+        <Container className="relative h-full flex items-center">
+          <div className="max-w-[480px]">
+            <p className="text-sm uppercase tracking-[0.2em] font-semibold text-accent mb-2">Il metodo</p>
+            <p className="text-xl md:text-2xl font-bold text-white leading-tight">Prima capiamo come lavori. Poi costruiamo lo strumento giusto.</p>
+          </div>
+        </Container>
+      </section>
+
       {/* Phases */}
       <section className="py-20 md:py-28">
         <Container>

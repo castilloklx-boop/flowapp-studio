@@ -5,6 +5,7 @@ import { Footer } from "@/components/Footer";
 import { CookieBanner } from "@/components/CookieBanner";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://flowapp.studio"),
   title: {
     default: "Flowapp Studio — Web app e app su misura per aziende",
     template: "%s — Flowapp Studio",
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
       "Web app e app su misura costruite intorno ai tuoi processi aziendali. Ricevi una prima stima in meno di due minuti.",
     type: "website",
     locale: "it_IT",
+    images: [{ url: "/logo.png", width: 512, height: 512 }],
   },
 };
 
